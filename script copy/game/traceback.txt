@@ -1,0 +1,17 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+Before loading the script.
+WindowsError: [Error 267] The directory name is invalid: u'C:\\Users\\tyler\\OneDrive\\Documents\\git\\vntesting\\script copy\\game\\script.rpy\\*.*'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "C:\Users\tyler\Downloads\renpy-6.99.6-sdk\renpy\bootstrap.py", line 281, in bootstrap
+    renpy.main.main()
+  File "C:\Users\tyler\Downloads\renpy-6.99.6-sdk\renpy\main.py", line 290, in main
+    for fn in os.listdir(dir):
+WindowsError: [Error 267] The directory name is invalid: u'C:\\Users\\tyler\\OneDrive\\Documents\\git\\vntesting\\script copy\\game\\script.rpy\\*.*'
+
+Windows-8-6.2.9200
+Ren'Py 6.99.6.739
+ 

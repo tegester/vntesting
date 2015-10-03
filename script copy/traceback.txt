@@ -1,0 +1,31 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "renpy/common/00layout.rpy", line 76, in script
+    if layout.invoke_yesno_prompt(None, layout.QUIT):
+  File "renpy/common/00layout.rpy", line 76, in <module>
+    if layout.invoke_yesno_prompt(None, layout.QUIT):
+  File "renpy/common/00layout.rpy", line 465, in invoke_yesno_prompt
+    rv = layout.yesno_prompt(*args)
+AttributeError: Layout instance has no attribute 'yesno_prompt'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "renpy/common/00layout.rpy", line 76, in script
+    if layout.invoke_yesno_prompt(None, layout.QUIT):
+  File "C:\Users\tyler\Downloads\renpy-6.99.6-sdk\renpy\ast.py", line 1612, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\Users\tyler\Downloads\renpy-6.99.6-sdk\renpy\python.py", line 1477, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\tyler\Downloads\renpy-6.99.6-sdk\renpy\python.py", line 1472, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "renpy/common/00layout.rpy", line 76, in <module>
+    if layout.invoke_yesno_prompt(None, layout.QUIT):
+  File "renpy/common/00layout.rpy", line 465, in invoke_yesno_prompt
+    rv = layout.yesno_prompt(*args)
+AttributeError: Layout instance has no attribute 'yesno_prompt'
+
+Windows-8-6.2.9200
+Ren'Py 6.99.6.739
+ 
